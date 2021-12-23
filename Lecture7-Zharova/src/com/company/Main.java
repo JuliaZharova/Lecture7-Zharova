@@ -22,10 +22,12 @@ public class Main {
         ins1.GetSpeedInfo();
         ins1.Eat();
         ins1.HomeBle("твоей квартире");
-        ins1.insectBle("3");
+        ins1.insectBle("black");
 
         ins2.Eat();
         ins2.Eat("ромашку");
         ins2.HomeBle();
+
+        System.out.println("У всех насекомых только " + InsectBle.EYES + " глаза.");
     }
 }
